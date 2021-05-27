@@ -9,6 +9,8 @@ console.log(__dirname)
 console.log(path.join(__dirname, '../public'))
 
 const app = express()
+const port = process.env.PORT || 3000
+
 //Define Path
 const publicDir = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -78,6 +80,6 @@ app.get('*', (req,res) => {
         errormsg:  'Page Not Found.'
     })
 })
-app.listen(3000, () => {
-    console.log('Our server is Online')
+app.listen(port, () => {
+    console.log('Our server is live on ' + port + '.')
 })
