@@ -1,5 +1,5 @@
 body{
-    color: brown;
+    color: black;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -21,7 +21,7 @@ h1{
     margin-bottom: 16px;
 }
 header a{
-    color: lightblue;
+    color: grey;
     margin-bottom: 16px;
     text-decoration: none;
 }
@@ -32,13 +32,11 @@ footer{
     padding: 16px 0;
 }
 p{
-    color: brown;
+    color: #888888;
 }
 .portrait{
-    width: 250px;
+    width: 220px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 input{
@@ -51,4 +49,8 @@ button{
     border: 1px solid #888888;
     background: #888888;
     color: white;
+}
+
+.about{
+    color: black;
 }
